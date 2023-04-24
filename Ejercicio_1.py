@@ -1,5 +1,4 @@
 
-string = input("Inserte una frase o palabra:")
 
 def validate_string(string):
     print(string.isalnum())
@@ -21,4 +20,5 @@ def validate_string(string):
         print(False)
     print(len(string) >= 8)
 
+string = input("xy@z")
 validate_string(string)

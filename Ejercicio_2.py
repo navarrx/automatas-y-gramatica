@@ -1,5 +1,6 @@
 def solve(string):
     numeros = string.split()
+    print(numeros)
     resultado_parcial = 0
     operacion = None
     total = 0
