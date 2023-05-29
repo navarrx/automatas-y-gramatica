@@ -1,6 +1,6 @@
 import re
 
-url_regex = re.compile(r'^(?:http[s]?://)?(?:www\.)?[\w.-]+\.[a-zA-Z]{2,}(?:/[\w.-]*)*(?:\?[\w=&]*)?$')
+url_regex = r'^(?:http[s]?://)?(?:www\.)?[\w.-]+\.[a-zA-Z]{2,}(?:/[\w.-]*)*(?:\?[\w=&]*)?$'
 
 def url_evaluator():
     url = str(input("\nInsert your URL here: "))
