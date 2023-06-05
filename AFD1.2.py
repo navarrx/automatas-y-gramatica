@@ -1,5 +1,5 @@
 
-alphabet = {'0', '1'}
+alphabet = {'a', 'b'}
 states = {'q0', 'q1'}
 initial_state = 'q0'
 accepting_states = {'q1'}
