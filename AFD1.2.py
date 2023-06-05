@@ -9,12 +9,17 @@ transitions = {
     ('q1', '0'): 'q0',
     ('q1', '1'): 'q1'
 }
+
 def accept(word):
     current_state = initial_state
+    print("Initial state:", current_state)
+    
     for symbol in word:
         current_state = transitions.get((current_state, symbol))
         if current_state is None:
             return False
+        print("Current state:", current_state)
+    
     return current_state in accepting_states and word[-1] == '1'
 
 
